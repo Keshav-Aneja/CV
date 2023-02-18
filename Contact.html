@@ -5,17 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        textarea
-        {
-            resize: none;
-        }
-        body{
-            text-align: center;
-            background-color: rgb(250, 242, 231);
-        }
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <center>
@@ -40,16 +30,20 @@
         </tr>
         <tr>
             <td>
-                <label>Please Enter your Message: </label>
+                <label>Your Message: </label>
             </td>
             <td>
                 <textarea name="Message" cols="21" rows="8"></textarea>
             </td>
         </tr>
         <tr>
-            <th colspan="2">
-                <input type="submit" value="SUBMIT">
+            <th>
+                <input type="reset" value="RESET" class="btn">
             </th>
+            <th>
+                <input type="submit" value="SUBMIT" class="btn">
+            </th>
+
         </tr>
     </table>
 </form>
